@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive page</title>
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Chania</h1>
+    </div>
+    <div class="row">
+      <div class="menu col-3">
+        <ul>
+          <li>The Flight</li>
+          <li>The City</li>
+          <li>The Island</li>
+          <li>The Food</li>
+        </ul>
+      </div>
+
+      <div class="col-6">
+        <h1>The City</h1>
+        <p>
+          Chania is the capital of the Chania region on the island of Crete. The
+          city can be divided in two parts, the old town and the modern city.
+        </p>
+        <img src="food.png" alt="food" width="100%">
+        <video width="100%" controls autoplay loop>
+          <source src="mov_bbb.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-3">
+        <div class="aside">
+            <marquee behavior="" direction="up" onmouseover="this.stop()" onmouseleave="this.start()">
+          <h2>What?</h2>
+          <p onmouseover="this.style.color='red'" onmouseleave="this.style.color='#fff'">Chania is a city on the island of Crete.</p>
+          
+          <div>
+            <img src="city.jpg" alt="" width="100%">
+          </div>
+          <h2>Where?</h2>
+          <p onmouseover="this.style.color='red'" onmouseleave="this.style.color='#fff'">Crete is a Greek island in the Mediterranean Sea.</p>
+          
+            <img src="island.jpg" alt="" width="100%">
+          
+          <h2>How?</h2>
+          <p onmouseover="this.style.color='red'" onmouseleave="this.style.color='#fff'">You can reach Chania airport from all over Europe.</p>
+          
+          
+            <img src="flight.png" alt="" width="100%">
+          </div>
+            </marquee>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Resize the browser window to see how the content respond to the
+        resizing.<p id="date">
+
+        </p>
+        <script>
+            const today = new Date();
+            document.getElementById('date').innerHTML = today.toLocaleDateString();
+        </script>
+      </p>
+    </div>
+  </body>
+</html>

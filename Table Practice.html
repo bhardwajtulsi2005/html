@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complex Table</title>
+    <style>
+      table {
+        width: 60%;
+        border-collapse: collapse;
+        margin-top: 5%;
+        margin-left: 20%;
+      }
+      table tr td {
+        height: 30px;
+        text-align: center;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tbody>
+        <tr>
+          <td rowspan="3">Day</td>
+          <td colspan="4">Seminar</td>
+        </tr>
+        <tr>
+          <td colspan="2">Schedule</td>
+          <td rowspan="2">Topic</td>
+        </tr>
+        <tr>
+          <td>Begin</td>
+          <td>End</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">8:00 a.m.</td>
+          <td rowspan="2">5:00 p.m.</td>
+          <td>Introduction to XML</td>
+        </tr>
+        <tr>
+          <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Tuesday</td>
+          <td>8:00 a.m.</td>
+          <td>11:00 a.m.</td>
+          <td>XPath</td>
+        </tr>
+        <tr>
+          <td>11:00 a.m.</td>
+          <td>2:00 p.m.</td>
+          <td rowspan="2">XSL transformation</td>
+        </tr>
+        <tr>
+          <td>2:00 p.m.</td>
+          <td>5:00 p.m.</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>8:00 a.m.</td>
+          <td>12:00 p.m.</td>
+          <td>XLS Formatting Objects</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1">
+      <tbody>
+        <tr>
+          <td>ID</td>
+          <td>Name</td>
+          <td>Subjects</td>
+          <td>Marks</td>
+        </tr>
+        <tr>
+          <td rowspan="3">1</td>
+          <td rowspan="3">David</td>
+          <td>Maths</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Physics</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Computer</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td rowspan="3">2</td>
+          <td rowspan="3">Alex</td>
+          <td>Maths</td>
+          <td>60</td>
+        </tr>
+        <tr>
+          <td>Physics</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td>Computer</td>
+          <td>90</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1">
+      <tbody>
+        <tr>
+          <td colspan="6">Time Table</td>
+        </tr>
+        <tr>
+          <td rowspan="7">Hours</td>
+        </tr>
+        <tr>
+          <td>Mon</td>
+          <td>Tue</td>
+          <td>Wed</td>
+          <td>Thu</td>
+          <td>Fri</td>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Hindi</td>
+          <td>Art</td>
+          <td>English</td>
+        </tr>
+        <tr>
+          <td>Hindi</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Art</td>
+          <td>English</td>
+        </tr>
+        <tr>
+          <td colspan="5">Lunch Break</td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Art</td>
+          <td>Hindi</td>
+        </tr>
+        <tr>
+          <td>Art</td>
+          <td>English</td>
+          <td>Science</td>
+          <td>Hindi</td>
+          <td>Maths</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1">
+      <tbody>
+        <tr>
+          <td colspan="16">
+            <b>Table A (2B)</b><br />
+            <b>Attributable Ownership Interest by Ethnicity</b> <br />
+            Stations with one or more Attributable Persons <br />
+            <b> Full Power Commercial Television Stations = 2013</b>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="8" rowspan="3"><b>Ethnicity</b></td>
+          <td colspan="8"><b>No. of Stations and percent of Total</b></td>
+        </tr>
+
+        <tr>
+          <td colspan="2"><b>Nationally</b></td>
+          <td colspan="2">
+            <b
+              >Neilson <br />
+              DMA 1 to 50</b
+            >
+          </td>
+          <td colspan="2">
+            <b
+              >DMA <br />
+              51 to 100</b
+            >
+          </td>
+          <td colspan="2">
+            <b
+              >DMA <br />
+              101+</b
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>No.</td>
+          <td>%</td>
+          <td>No.</td>
+          <td>%</td>
+          <td>No.</td>
+          <td>%</td>
+          <td>No.</td>
+          <td>%</td>
+        </tr>
+        <tr>
+          <td rowspan="3" colspan="6"><b>Hispanic or Latino</b></td>
+          <td colspan="2">Male</td>
+          <td>96</td>
+          <td>7.7</td>
+          <td>69</td>
+          <td>14.8</td>
+          <td>9</td>
+          <td>2.7</td>
+          <td>18</td>
+          <td>4.1</td>
+        </tr>
+        <tr>
+          <td colspan="2">FeMale</td>
+          <td>96</td>
+          <td>7.7</td>
+          <td>69</td>
+          <td>14.8</td>
+          <td>9</td>
+          <td>2.7</td>
+          <td>18</td>
+          <td>4.1</td>
+        </tr>
+        <tr>
+          <td colspan="2"><b>Total</b></td>
+          <td>96</td>
+          <td>7.7</td>
+          <td>69</td>
+          <td>14.8</td>
+          <td>9</td>
+          <td>2.7</td>
+          <td>18</td>
+          <td>4.1</td>
+        </tr>
+        <tr>
+          <td rowspan="3" colspan="6"><b>Non Hispanic or Latino</b></td>
+          <td colspan="2">Male</td>
+          <td>96</td>
+          <td>7.7</td>
+          <td>69</td>
+          <td>14.8</td>
+          <td>9</td>
+          <td>2.7</td>
+          <td>18</td>
+          <td>4.1</td>
+        </tr>
+        <tr>
+          <td colspan="2">FeMale</td>
+          <td>96</td>
+          <td>7.7</td>
+          <td>69</td>
+          <td>14.8</td>
+          <td>9</td>
+          <td>2.7</td>
+          <td>18</td>
+          <td>4.1</td>
+        </tr>
+        <tr>
+          <td colspan="2"><b>Total</b></td>
+          <td>96</td>
+          <td>7.7</td>
+          <td>69</td>
+          <td>14.8</td>
+          <td>9</td>
+          <td>2.7</td>
+          <td>18</td>
+          <td>4.1</td>
+        </tr>
+        <tr>
+          <td colspan="8"><b>Total stations</b></td>
+          <td>1,239</td>
+          <td>100%</td>
+          <td>465</td>
+          <td>100%</td>
+          <td>330</td>
+          <td>100%</td>
+          <td>444</td>
+          <td>100%</td>
+        </tr>
+        <tr>
+          <td colspan="8"><b>Insufficient Data</b></td>
+          <td>147</td>
+          <td>---</td>
+          <td>70</td>
+          <td>---</td>
+          <td>30</td>
+          <td>---</td>
+          <td>42</td>
+          <td>---</td>
+        </tr>
+        <tr>
+          <td colspan="8"><b>Station not Filed</b></td>
+          <td>1</td>
+          <td>---</td>
+          <td>0</td>
+          <td>---</td>
+          <td>0</td>
+          <td>---</td>
+          <td>1</td>
+          <td>---</td>
+        </tr>
+        <tr>
+          <td colspan="8"><b>All licenced Stations</b></td>
+          <td>1,387</td>
+          <td>---</td>
+          <td>540</td>
+          <td>---</td>
+          <td>360</td>
+          <td>---</td>
+          <td>487</td>
+          <td>---</td>
+        </tr>
+      </tbody>
+      <!-- bill table -->
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <td colspan="8" style="text-align: left">
+            <b>Zyker's Electronic club</b><br />
+            14B, Northern Street<br />
+            Greater South Avenue<br />
+            New York New York = 10001,<br />
+            U.S.A.
+          </td>
+          <td
+            colspan="8"
+            style="text-align: right; color: blue; font-size: x-large"
+          >
+            INVOICE
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="8" style="text-align: justify">
+            Invoice# <b>: Inv-000003</b> <br />
+            Invoice Date <b>: 18 May 2023 </b> <br />
+            Terms <b> : Due on Receipt </b><br />
+            Due Date <b>: 18 May 2023</b> <br />
+          </td>
+          <td colspan="8">blank</td>
+        </tr>
+        <tr>
+          <td colspan="8">Bill to</td>
+          <td colspan="8">shift to</td>
+        </tr>
+        <tr>
+          <td colspan="8" style="text-align: justify">
+            <b>Ms. Mary D Tanton</b><br />134 Hinkle lake road <br />Needham
+            <br />02143 Maine
+          </td>
+          <td colspan="8" style="text-align: justify">
+            134 Hinkle lake road <br />Needham <br />02143 Maine
+          </td>
+        </tr>
+
+        <tr style="background-color: blue; color: white">
+          <td colspan="2">#</td>
+          <td colspan="5" style="text-align: left">Items and Discription</td>
+          <td colspan="2">Qty</td>
+          <td colspan="3">Rate</td>
+          <td colspan="4" style="text-align: right">Amount</td>
+        </tr>
+        <tr>
+          <td colspan="2">1</td>
+          <td colspan="5" style="text-align: left">
+            Camera <br />
+            DSLR camera with advancd shooting capabilities
+          </td>
+          <td colspan="2">100 pieces</td>
+          <td colspan="3">899.00</td>
+          <td colspan="4">899.00</td>
+        </tr>
+        <tr>
+          <td colspan="2">2</td>
+          <td colspan="5" style="text-align: left">
+            Camera <br />
+            DSLR camera with advancd shooting capabilities
+          </td>
+          <td colspan="2">100 pieces</td>
+          <td colspan="3">899.00</td>
+          <td colspan="4">899.00</td>
+        </tr>
+        <tr>
+          <td colspan="2">3</td>
+          <td colspan="5" style="text-align: left">
+            Camera <br />
+            DSLR camera with advancd shooting capabilities
+          </td>
+          <td colspan="2">100 pieces</td>
+          <td colspan="3">899.00</td>
+          <td colspan="4">899.00</td>
+        </tr>
+        <tr>
+          <td colspan="12" style="text-align: right"><b> Sub Total </b></td>
+          <td colspan="4">$2697.00</td>
+        </tr>
+        <tr>
+          <td rowspan="4" colspan="6" style="text-align: left">
+            Thanks for your business. <br /><br />
+            Terms and conditions <br />
+            Full payment is due upon receipt of this invoice. Late payments may
+            incur additional charges or interests as per the applicable laws.
+          </td>
+
+          <td
+            colspan="6"
+            style="text-align: left; background-color: rgb(95, 105, 184)"
+          >
+            Tax Rate
+          </td>
+          <td
+            colspan="4"
+            style="text-align: right; background-color: rgb(95, 105, 184)"
+          >
+            5.00%
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="6"
+            style="text-align: left; background-color: rgb(95, 105, 184)"
+          >
+            Total
+          </td>
+          <td
+            colspan="4"
+            style="text-align: right; background-color: rgb(95, 105, 184)"
+          >
+            2128.35
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="6"
+            style="text-align: left; background-color: rgb(95, 105, 184)"
+          >
+            Balance Due
+          </td>
+          <td
+            colspan="4"
+            style="text-align: right; background-color: rgb(95, 105, 184)"
+          >
+            2128.35
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+    </table>
+  </body>
+</html>
